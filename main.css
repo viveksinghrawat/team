@@ -1,0 +1,94 @@
+body#bodyId{
+  background-color: black;
+  color: white;
+  margin: 0px;
+}
+
+header{
+  height: 20%;
+  width: auto;
+}
+
+img#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr#secondLine{
+  display:hidden;
+  visibility: hidden;
+}
+
+a#logoLink{
+  position: relative;
+  float: right;
+}
+
+li{
+  display: inline;
+  margin-right: 10px;
+  list-style-type: none;
+  font-size: 120%;
+  font-family: sans-serif;
+  letter-spacing: .05em;
+  word-spacing: 1.5em;
+}
+
+div#linkSection{
+  position: absolute;
+  left: 37%;
+  top: 3.5%;
+}
+
+a:link{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  font-size: 120%;
+  box-decoration-break: slice;
+}
+a:visited{
+  color: white;
+}
+
+div.introduction{
+  position: absolute;
+  top: 25%;
+  left: 2%;
+}
+
+h2#intro{
+  text-decoration: underline;
+  font-style: italic;
+}
+
+p#introPart{
+  max-width: 50%;
+  text-align: justify;
+  letter-spacing: 0.04em;
+}
+
+span#equalWidth{
+   float: left;
+	 width: 160px;
+	 text-align: right;
+	 padding-right: 10px;
+}
+
+input#rightFloat{
+  margin: 10px;
+  position: relative;
+  float: right;
+}
+
+iframe#loginPageFrame{
+  border: 5px solid white;
+  position: absolute;
+  left: 65%;
+  top: 23%;
+  border-style:groove;
+  border-radius: 20px;
+}
